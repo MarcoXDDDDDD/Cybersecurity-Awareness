@@ -1,0 +1,688 @@
+/* Set the background color of the body and remove padding and margin */
+body {
+  background-color: #f2f2f2;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+/* Style the header */
+header {
+  background-color: #00033d;
+  padding: 15px;
+  box-shadow: 0 0 10px pink;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+/* Style the list items within the header */
+header li {
+  display: inline;
+  padding-left: 45px;
+}
+
+/* Style the links within the header */
+header li a {
+  color: white;
+  text-decoration: none;
+  padding: 13px;
+  transition: .3s ease;
+}
+
+/* Change link color on hover */
+header li a:hover {
+  color: blueviolet;
+}
+
+/* Style a specific link within the header */
+header ul #johnUs a {
+  color: white;
+  background-color: royalblue;
+  border-radius: 30px;
+  float: right;
+  position: relative;
+  top: -15px;
+  transition: 0.3s ease;
+}
+
+/* Change specific link background color on hover */
+header ul #johnUs a:hover {
+  background-color: yellow;
+}
+
+/* Style the image within the header list item */
+header li img {
+  width: 100px;
+  float: left;
+  margin-top: -20px;
+}
+
+/* Style a rounded box */
+.rounded-box {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Style labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style input fields */
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Style buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the about section container */
+.aboutContainer {
+  background-color: #E2E592;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style the image within the about section container */
+.aboutContainer img {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Style the paragraphs within the about section container */
+.aboutContainer p {
+  font-weight: bold;
+  color: #041E42;
+  text-align: left;
+  width: 60%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 23pt;
+}
+
+/* Style the main page container */
+.mainPage {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+/* Style the image within the main page */
+.mainPage img {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the text within the image container */
+.imageWord {
+  position: absolute;
+  top: 80px;
+  left: 40px;
+  font-size: 60px;
+  font-family: fantasy;
+}
+
+/* Style the circle container */
+.circleContainer {
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style the circle photos */
+.circlePhoto {
+  padding: 10px 0px 50px 0px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 33.33%;
+  aspect-ratio: 1/1;
+}
+
+/* Style the images within the circle photos */
+.circlePhoto img {
+  background-color: #ffffff;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Style the text within the circles */
+.circleText {
+  font-size: larger;
+  font-family: fantasy;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Style the exercise circle container */
+.exerciseCircleContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+  
+/* Styling for circular photo container */
+.exerciseCirclePhoto {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+/* Styling for the image inside circular photo */
+.exerciseCirclePhoto img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+/* Styling for the footer section */
+footer {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: 70px 0;
+}
+
+/* Styling for the container within the footer */
+.footerContainer {
+  color: #f2f2f2;
+  max-width: 1170px;
+  background-color: black;
+  margin: auto;
+  line-height: 1.5;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* Flex container with wrapping behavior */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Removing default list styles from unordered lists */
+.footerContainer ul {
+  list-style: none;
+}
+
+/* Styling for footer columns */
+.footerCol {
+  width: 25%;
+  padding: 0 15px;
+}
+
+/* Styling for heading elements within footer columns */
+.footerCol h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Adding a line below the heading */
+.footerCol h4::before {
+  content: "";
+  position: absolute;
+  left: 100px;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 100px;
+}
+
+/* Styling for list items within footer columns */
+.footerCol ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Styling for links within footer columns */
+.footerCol ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+/* Styling for link hover effect within footer columns */
+.footerCol ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+/* Styling for pricing plan container */
+.pricingPlan {
+  width: 300px;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555555;
+  margin: 15px;
+}
+
+/* Flex container for pricing section */
+.pricingSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styling for pricing plan header section */
+.pricingPlanHeader {
+  padding: 25px;
+  background-color: #009578;
+  color: #ffffff;
+}
+
+/* Styling for pricing plan title and info */
+.pricingPlanTitle,
+.pricingPlanInfo {
+  margin: 0;
+  text-align: center;
+}
+
+/* Styling for pricing plan title */
+.pricingPlanTitle {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+/* Styling for pricing plan info */
+.pricingPlanInfo {
+  font-size: 1em;
+  font-weight: 300;
+}
+
+/* Styling for pricing plan advantages section */
+.pricingPlanAdv {
+  padding: 25px;
+}
+
+/* Styling for pricing plan features list */
+.pricingPlanList {
+  padding: 0;
+  margin: 0;
+}
+
+/* Styling for pricing plan features */
+.pricingPlanFeature {
+  list-style: none;
+  margin: 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 0.9em;
+}
+
+/* Styling for pricing plan feature bullets */
+.pricingPlanFeature:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+/* Styling for pricing plan feature checkmark */
+.pricingPlanFeature::before {
+  content: "\2714";
+  color: #009578;
+  position: absolute;
+  left: 0;
+}
+
+/* Styling for pricing plan action section */
+.pricingPlanAction {
+  padding: 25;
+  border-top: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for pricing plan buttons */
+.pricingPlanButton {
+  display: inline-block;
+  margin: 15px auto; 
+  padding: 8px 20px; 
+  text-decoration: none;
+  color: #009578;
+  background: #ffffff;
+  border-radius: 5px; 
+  border: 1px solid #009578; 
+  text-transform: uppercase;
+  letter-spacing: 0.02em; 
+  font-weight: bold; 
+}
+
+/* Styling for pricing plan buttons on hover */
+.pricingPlanButton:hover {
+  background: #009578; 
+  color: #ffffff; 
+}
+
+/* Styling for pricing plan costs */
+.pricingPlanCost {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  color: #000000;
+}
+
+/* Styling for pricing plan text */
+.pricingPlanText {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+
+/* Styling for recommended pricing plan */
+.pricingPlanRecommend {
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  background: #007c64;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
+}
+
+/* Styling for the main container of personal training section */
+.personalTrainingMain {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styling for paragraphs within the personal training section */
+.personalTrainingMain p{
+  font-weight: bolder;
+}
+
+
+
+/* Styling for the background overlay of personal training section */
+.personalTrainingMain::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.5; 
+  z-index: -1;
+}
+
+/* Styling for the registration box */
+.registerBox {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Styling for the heading within the registration box */
+.registerBox h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Styling for paragraphs within the registration box */
+.registerBox p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the form within the registration box */
+.registerBox form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the box element */
+.box {
+  width: 6cm;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+  color: #000000;
+}
+
+/* Styling for labels within the registration box */
+.registerBox label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Styling for select elements within the registration box */
+.registerBox select {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+/* Styling for text, email, and number input fields within the registration box */
+.registerBox input[type="text"],
+.registerBox input[type="email"],
+.registerBox input[type="number"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for submit button within the registration box */
+.registerBox button[type="submit"] {
+  background-color: #009578;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Styling for submit button on hover within the registration box */
+.registerBox button[type="submit"]:hover {
+  background-color: #007c64;
+}
+
+/* Styling for the info box */
+.infoBox {
+  display: inline-block;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Styling for the form within the info box */
+.infoBox form {
+  display: grid;
+  gap: 10px;
+}
+
+/* Styling for labels within the info box */
+.infoBox label {
+  display: block;
+  font-weight: bold;
+}
+
+/* Styling for text, email, and number input fields and textarea within the info box */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Styling for textarea to allow vertical resizing */
+textarea {
+  resize: vertical;
+}
+
+/* Styling for the h2 heading */
+h2 {
+  padding: 30px 20px;
+  text-align: left;
+}
+
+/* Styling for the exercise container */
+.exerciseContainer {
+  display: flex;
+}
+
+/* Styling for each exercise item within the exercise container */
+.exerciseItem {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Styling for images within the exercise items */
+.exerciseItem img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Styling for paragraphs within the exercise items */
+.exerciseItem p {
+  padding: 10px;
+  color: #007bff;
+}
+
+/* Styling for the faqs container */
+.faqsContainer {
+  text-align: left;
+}
+
+/* Styling for the h1 heading within the faqs container */
+.faqsContainer h1 {
+  text-align: center;
+}
+
+/* Styling for paragraphs within the faqs container */
+.faqsContainer p {
+  padding-left: 25px;
+  font-size: large;
+  padding-bottom: 30px;
+}
+
+/* Styling for the h3 heading within the faqs container */
+.faqsContainer h3 {
+  color: blue;
+}
+
+/* Styling for the message box */
+.message-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+/* Styling for buttons within the message box */
+.message-box button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+/* Styling for the location Container */
+.locationContainer {
+  display: flex;
+}
+
+/* Styling for the location info box */
+.locationInfo {
+  background-color: lightblue;
+  width: 50%;
+  float: left;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+/* Styling for the telephone box */
+.telephone {
+  background-color: lightblue;
+  width: 50%;
+  float: right;
+  font-weight: bold;
+  font-size: 20px; 
+}
+
+.description {
+  padding: 5px;
+  font-style: italic;
+}
+
+.personalTrainingMain .para h2, p{
+  padding: 5px 45dvh 10px 45dvh
+}
+
+.personalTrainingMain .para img {
+  width: 50dvw;
+  height: auto;
+}
+
+.personalTrainingMain .para2 p{
+  padding: 5px 45dvh 10px 45dvh;
+  text-align: left;
+}

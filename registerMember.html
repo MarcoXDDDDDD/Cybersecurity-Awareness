@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register Member - Easy Fitness Center</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+  <link rel="icon" href="image/logo.png" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="prevent.html">Prevent</a></li>
+        <li><a href="waysOfAttacks.html">Ways of attacks</a></li>
+        <li><a href="caseStudy.html">Case Study</a></li>
+        <li id="johnUs"><a href="questionnaire.html">Questionnaire</a></li>
+    </ul>
+  </header>
+  
+  <main>
+    <h1>Register For A Membership</h1>
+    <p>after submission, our staff will contact you in the next 24 hours</p>
+    <div class="registerBox">
+        <form id="registrationForm">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required>
+            <label for="number">Phone Number: </label>
+            <input type="tel" id="number" name="number" required>
+            <label for="location">Choose Your main Fitness Center</label>
+            <select id="location" name="location" required>
+                <option value="null" selected disabled>branches</option>
+                <option value="tseungkwano">Tseung Kwan O</option>
+                <option value="mongkok">Mong Kok</option>
+                <option value="shatin">Shatin</option>
+                <option value="tsimshatsui">Tsim Sha Tsui</option>
+            </select><br><br>
+            <button type="submit">Submit</button>            
+        </form>
+    </div>
+</main>
+  
+<footer>
+  <div class="footerContainer">
+    <div class="row">
+      <div class="footerCol">
+        <h4>Naviagation Bar</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="prevent.html">Prevent</a></li>
+          <li><a href="waysOfAttacks.html">Ways of attacks</a></li>
+          <li><a href="caseStudy.html">Case Study</a></li>
+          <li><a href="questionnaire.html">Questionnaire</a></li>
+        </ul>
+      </div>
+      <div class="footerCol">
+        <h4>Member</h4>
+        <ul>
+          <li><a href="faqs.html">FAQS</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
