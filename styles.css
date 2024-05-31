@@ -668,13 +668,11 @@ h2 {
   font-size: 20px; 
 }
 
-.description {
+.mainPage .description {
   padding: 5px;
-  font-style: italic;
-}
-
-.personalTrainingMain .para h2, p{
-  padding: 5px 45dvh 10px 45dvh
+  font-size: 16px;
+  padding: 5px 30dvw 10px 30dvw;
+  text-align: left;
 }
 
 .personalTrainingMain .para img {
@@ -682,7 +680,9 @@ h2 {
   height: auto;
 }
 
-.personalTrainingMain .para2 p{
-  padding: 5px 45dvh 10px 45dvh;
+.personalTrainingMain .para2 p  , .para p{
+  padding: 5px 30dvw 10px 30dvw;
   text-align: left;
 }
+
+
