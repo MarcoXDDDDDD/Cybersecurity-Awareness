@@ -685,4 +685,7 @@ h2 {
   text-align: left;
 }
 
-
+.top img{
+ width: 100%;
+ height: auto;
+}
