@@ -439,6 +439,8 @@ footer {
   background-size: cover;
   position: relative;
   overflow: hidden;
+  padding: 0px 20dvw ;
+  text-align: left;
 }
 
 /* Styling for paragraphs within the personal training section */
@@ -446,7 +448,11 @@ footer {
   font-weight: bolder;
 }
 
-
+.personalTrainingMain iframe {
+  height: 30dvh;
+  width: auto;
+  aspect-ratio: 16/9;
+} 
 
 /* Styling for the background overlay of personal training section */
 .personalTrainingMain::before {
@@ -682,11 +688,12 @@ h2 {
 }
 
 .personalTrainingMain .para img {
-  width: 50dvw;
-  height: auto;
+  height: 30dvh;
+  width: auto;
+  aspect-ratio: 16/9;
 }
 
-.personalTrainingMain .para2 {
+.Prevent .para2 {
   padding: 0px 5dvw 0px 5dvw;
   display: flex;
   text-align: left;
