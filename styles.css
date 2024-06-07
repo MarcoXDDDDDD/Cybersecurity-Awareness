@@ -710,4 +710,7 @@ h2 {
   border: 1px solid #67748E;
   border-radius: 25px;
   padding: 20px;
+.top img{
+ width: 100%;
+ height: auto;
 }
