@@ -1,4 +1,10 @@
 /* Set the background color of the body and remove padding and margin */
+* {
+  font-family: "Play", "MArima Madurai", Microsoft JhengHei, Georgia, Times, serif, Microsoft Yahei, Open Sans, sans-serif;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
 body {
   background-color: #f2f2f2;
   padding: 0;
@@ -680,9 +686,28 @@ h2 {
   height: auto;
 }
 
-.personalTrainingMain .para2 p  , .para p{
-  padding: 5px 30dvw 10px 30dvw;
+.personalTrainingMain .para2 {
+  padding: 0px 5dvw 0px 5dvw;
+  display: flex;
   text-align: left;
+
 }
 
+.para2 .left {
+  margin-right: 15px;
+  min-width: 40dvw;
+  flex-grow: 1;
 
+  border: 1px solid #67748E;
+  border-radius: 25px;
+  padding: 20px;
+}
+.para2 .right {
+  margin-left: 15px;
+  min-width: 40dvw;
+  flex-grow: 1;
+
+  border: 1px solid #67748E;
+  border-radius: 25px;
+  padding: 20px;
+}
