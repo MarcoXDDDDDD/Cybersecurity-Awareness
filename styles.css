@@ -722,6 +722,17 @@ h2 {
 }
 
 .top img{
- width: 100%;
- height: auto;
+  width: 100%;
+  height: auto;
+}
+
+.Case .Scenario { 
+  text-align: left;
+  padding: 5px 20dvw 10px 20dvw;
+} 
+
+.Case .Scenario img {
+  width: 58dvw;
+  height: auto;
+  aspect-ratio: 16/9;
 }
