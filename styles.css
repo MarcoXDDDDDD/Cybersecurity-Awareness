@@ -736,3 +736,93 @@ h2 {
   height: auto;
   aspect-ratio: 16/9;
 }
+
+
+
+
+.List {
+  /* List flexbox settings */
+  background-color: #fff;
+  color: #67748E;   
+  margin: 0px 0px 30px;
+  padding: 20px;
+  gap: 15px;
+   
+  border-radius: 15px;
+  border: 1px solid #F3F0FA;
+  
+  min-width: 55dvw;
+  min-height: 10dvh;
+  display: flex;
+}
+
+ .Preview {
+  /* flex box (Preview) settings */
+  height: 130px;
+  width: auto;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.Preview iframe,  .Preview img {
+  /* iframe or img in flex box (Preview) settings */
+  border-radius: 15px;
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+  aspect-ratio: auto;
+  transition: .2s linear;
+}
+
+ .Preview iframe:hover, .Preview img:hover  {
+  transform: scale(1.05);
+}
+
+.Preview img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.Details {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: auto;
+  height: auto;
+  flex-grow: 1;
+}
+
+ .Type, 
+ .Name,
+.Discription
+{
+  /* flex box inside flex box (Details)'s settings */
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  min-width: 34ch;
+}
+
+.Type {
+  color: #a523cc;
+}
+
+.Name {
+  color: #37475C;
+}
+
+.Type img {
+  filter: brightness(0) saturate(100%) invert(26%) sepia(85%) saturate(7061%) hue-rotate(282deg) brightness(90%) contrast(89%);;
+  max-height: 20px;
+}
+
+.Line {
+  border-top: 1px solid #ECECEC;
+  margin-top: 3%;
+  gap: 15px;
+}
+
+.mid {
+  padding:  20px 15dvw;
+}
