@@ -230,7 +230,7 @@ footer {
 /* Styling for the container within the footer */
 .footerContainer {
   color: #f2f2f2;
-  max-width: 1170px;
+  max-width: 100dvw;
   background-color: black;
   margin: auto;
   line-height: 1.5;
@@ -247,6 +247,7 @@ footer {
 .footerContainer ul {
   list-style: none;
 }
+
 
 /* Styling for footer columns */
 .footerCol {
@@ -449,8 +450,8 @@ footer {
 }
 
 .personalTrainingMain iframe {
-  height: 30dvh;
-  width: auto;
+  width: 58dvw;
+  height: auto;
   aspect-ratio: 16/9;
 } 
 
@@ -688,8 +689,8 @@ h2 {
 }
 
 .personalTrainingMain .para img {
-  height: 30dvh;
-  width: auto;
+  width: 58dvw;
+  height: auto;
   aspect-ratio: 16/9;
 }
 
@@ -702,7 +703,7 @@ h2 {
 
 .para2 .left {
   margin-right: 15px;
-  min-width: 40dvw;
+  flex-basis: 50%;
   flex-grow: 1;
 
   border: 1px solid #67748E;
@@ -711,7 +712,8 @@ h2 {
 }
 .para2 .right {
   margin-left: 15px;
-  min-width: 40dvw;
+
+  flex-basis: 50%;
   flex-grow: 1;
 
   border: 1px solid #67748E;
